@@ -1,7 +1,7 @@
 {
   "properties": {
-    "identification_data_of_buildings": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
+    "identification_data_of_rooms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
       "maxItems": 1,
       "title": "Данные, идентифицирующие здание"
     },
@@ -34,7 +34,7 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_buildings",
+    "identification_data_of_rooms",
     "building_name"
   ]
 }

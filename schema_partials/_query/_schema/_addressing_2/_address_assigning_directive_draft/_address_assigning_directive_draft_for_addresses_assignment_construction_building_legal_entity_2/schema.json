@@ -1,6 +1,6 @@
 {
   "properties": {
-    "identification_data_of_buildings": {
+    "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
       "title": "Данные, идентифицирующие здание"
     },

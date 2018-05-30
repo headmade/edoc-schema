@@ -7,8 +7,8 @@
   "items": {
     "type": "object",
     "properties": {
-      "address_with_map": {
-        "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "address": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
         "title": " "
       },
       "cadastre_number": {

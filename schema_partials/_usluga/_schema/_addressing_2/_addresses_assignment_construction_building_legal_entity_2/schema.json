@@ -1,9 +1,9 @@
 {
   "properties": {
-    "identification_data_of_buildings": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
+    "identification_data_of_lands": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие здание"
+      "title": "Данные, идентифицирующие земельные участки"
     },
     "building_name": {
       "type": "string",
@@ -26,12 +26,9 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
-      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+      "description":
+        "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     }
   },
-  "required": [
-    "organization",
-    "identification_data_of_buildings",
-    "building_name"
-  ]
+  "required": ["organization", "identification_data_of_lands", "building_name"]
 }
