@@ -33,7 +33,6 @@
       "items": {
         "type": "object",
         "required": [
-          "contruction_type"
         ],
         "properties": {
           "contruction_type": {

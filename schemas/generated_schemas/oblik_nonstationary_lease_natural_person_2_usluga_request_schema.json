@@ -41,11 +41,6 @@
                   "дворовый"
                 ]
               },
-              "sketch": {
-                "title": "Эскизное предложение",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Эскизное предложение"
-              },
               "description": {
                 "title": "Описание",
                 "type": "string"
