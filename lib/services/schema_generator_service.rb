@@ -95,13 +95,18 @@ class SchemaGeneratorService
   end
 
   def get_file_data(file_with_ext)
-    case file_with_ext[:ext]
-    when *['.yaml', '.yml']
-      YAML.load_file(file_with_ext[:file])
-    when '.json'
-      JSON.parse(File.read(file_with_ext[:file]))
-    else
-      {}
+    begin
+      case file_with_ext[:ext]
+      when *['.yaml', '.yml']
+        YAML.load_file(file_with_ext[:file])
+      when '.json'
+        JSON.parse(File.read(file_with_ext[:file]))
+      else
+        {}
+      end
+    rescue StandardError => e
+      puts file_with_ext[:file]
+      raise e
     end
   end
 
