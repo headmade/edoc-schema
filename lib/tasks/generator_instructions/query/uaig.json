@@ -1,0 +1,12 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "uaig_1",
+      "virtual": true,
+      "keys": [
+        { "name": "uaig_preparation_townplanning_opinion_on_possibility_of_issuing_requested_permission_to_use_land_1" }
+      ]
+    }
+  ]
+}
